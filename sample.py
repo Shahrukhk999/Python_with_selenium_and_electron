@@ -11,8 +11,8 @@ from keyboard import press
 
 class unitTest(unittest.TestCase):
     def setUp(self):
-        chromedriver_path = r'C:\Users\user\Downloads\chromedriver_win32 (73)\chromedriver.exe'
-        electron_path = r"C:\Program Files\Traffic UI\Traffic UI.exe"
+        chromedriver_path = r'chromedriver.exe'
+        electron_path = r"Electronapplication exe or app image path"
 
 
         opts = Options()
