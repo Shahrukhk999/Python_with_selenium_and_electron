@@ -36,26 +36,10 @@ class unitTest(unittest.TestCase):
         time.sleep(2)
         self.driver.find_element_by_xpath("//*[@id='AaiSelectProjectPath']/div[3]/button").click()
         self.driver.find_element_by_xpath("//*[@id='app']/div[1]/div/div[1]/span/aside/div[1]/div/div[4]/div/div[2]/a[1]").is_displayed()
-        #self.driver.find_element_by_xpath("//*[@id='AaiSelectProjectPath']/div[2]/div[2]/button/span").send_keys("C:\\Users\\user\\Python_with_selenium_and_electron\\Shahua")
-        #self.driver.find_element_by_xpath("//*[@id='AaiSelectProjectPath']/div[3]/button").click()
-        #self.driver.find_element_by_xpath("//*[@id='app']/div[1]/div/div[2]/main/div/div/div[2]/div/span").is_displayed()
-        #time.sleep(20)
-        #print(self.driver.find_element_by_id("TD-btn_createtest").text)
-        #self.driver.find_element_by_id("TD-btn_createtest").click()
-        #time.sleep(5)
-        #name =self.driver.find_element_by_id("TC-GF-tb_name").get_property("value")
-        #self.assertEqual("Test 1", name)
-        #self.driver.find_element_by_id("TC-GF-tb_name").send_keys(Keys.CONTROL, 'a')
-        #self.driver.find_element_by_id("TC-GF-tb_name").send_keys(Keys.BACK_SPACE)
-        #self.driver.find_element_by_xpath("//*[@id='TC-GF-radios_testtype']/div/div/div/div[2]/div/div").click()
-        #self.driver.find_element_by_xpath("//*[@id='TCF-btn_next']/div").click(
-        #time.sleep(2)
-        self.driver.quit()
-
-    @classmethod
+           @classmethod
     def tearDownClass(self):
         print("testend")
-    # self.driver.quit()
+     self.driver.quit()
 
 
 if __name__ == '__main__':
