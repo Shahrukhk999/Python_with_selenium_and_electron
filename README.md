@@ -5,5 +5,5 @@ For that you need to insstall XVFB
 after that run command 
 
 
- # xvfb python3 sample.py
+ # xvfb python3 test.py
  
