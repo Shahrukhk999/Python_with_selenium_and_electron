@@ -3,5 +3,7 @@ HI all its my effort for connecting selenium with electron if you want to connec
 if you want to run this in CI?CD you need to create a virtual enviroemnt
 For that you need to insstall XVFB
 after that run command 
- ----------------------xvfb python3 sample.py-------------------------
+
+
+ #xvfb python3 sample.py
  
