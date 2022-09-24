@@ -26,16 +26,13 @@ class unitTest(unittest.TestCase):
         self.driver.implicitly_wait(15)
  # wait for application to start
     def test_login(self):
-        time.sleep(2)
-        print(self.driver.find_element_by_xpath("//*[@id='AaiSelectProjectPath']/div[1]/p[1]").text)
+        print(self.driver.find_element_by_xpath("").text)
 
-        self.driver.find_element_by_xpath("//*[@id='AaiSelectProjectPath']/div[2]/div[2]/button/span").click()
-        time.sleep(2)
+        self.driver.find_element_by_xpath("").click()
         press('enter')
-        #self.driver.find_element_by_tag_name('body').send_keys(Keys.ENTER)
-        time.sleep(2)
-        self.driver.find_element_by_xpath("//*[@id='AaiSelectProjectPath']/div[3]/button").click()
-        self.driver.find_element_by_xpath("//*[@id='app']/div[1]/div/div[1]/span/aside/div[1]/div/div[4]/div/div[2]/a[1]").is_displayed()
+        self.driver.find_element_by_tag_name('').send_keys(Keys.ENTER)
+        self.driver.find_element_by_xpath("").click()
+        self.driver.find_element_by_xpath("").is_displayed()
            @classmethod
     def tearDownClass(self):
         print("testend")
